@@ -1,0 +1,9 @@
+#content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 300px;
+}
